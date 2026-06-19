@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line interface for the Organizze REST API v2",
   "homepage": "https://developers.organizze.com.br",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/organizze/agent-tools/releases/download/cli-v0.1.0/organizze-windows-x64.exe",
-      "hash": "8c7c0b7cc50f69ad2d39cdf6e811cec9729f6cc8f84c19ead16b6fc52891b534",
+      "url": "https://github.com/organizze/agent-tools/releases/download/cli-v0.1.1/organizze-windows-x64.exe",
+      "hash": "ce127686383491bdfd84702d6b89865abafc2e70d50d32918f641b6e1dbfd4c7",
       "bin": [["organizze-windows-x64.exe", "organizze"]]
     }
   },

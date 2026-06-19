@@ -1,13 +1,13 @@
 cask "organizze" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
-    sha256 "eba06b9a86da5d903d030a7c852374fdcc8314ba06192b58005ab24ae2306515"
+    sha256 "b289b37945269311eefb1b84bf0a021c52305894f31530756034b8d9d333594c"
   end
   on_intel do
-    sha256 "dcbefa77a16e6f52adfe4113f5b9d96a352c85fe6a0812f280588df17ad9947f"
+    sha256 "7021429e6830bd95e232a8511c67066e8145864d7dce109c740b76cc7849c4f8"
   end
 
   url "https://github.com/organizze/agent-tools/releases/download/cli-v#{version}/organizze-darwin-#{arch}"
